@@ -30,7 +30,9 @@ Only [python 3.x](https://www.python.org/) and it's standard libraries (obviousl
 
 ## Example Code
 The following is some example code that demonstrates how to login to The Kingdom of Loathing, grab the contents of your inbox, access the item database, as well as to pull, use and smash items.
+
 `To be done when the code is actually running!`
+
 Will use the equivalent example from the original repository.
 
 ## Running the Unit Tests.
@@ -41,8 +43,8 @@ pykol includes a unittest suite, to showcase some of its functionality and to he
 To run the test suite:
 
 ## Major fixes
-1. Move of KoL to HTTPS now working.
-2. Move to [AWS](https://www.aws.com/) now working.
+1. Code update for the move of KoL to HTTPS now working.
+2. Regexes update for the move to [AWS](https://www.aws.com/) now working for tested calls.
 
 ## Current Issues
 1. No upload of files yet.
