@@ -9,6 +9,8 @@ This rewrite is to:
 1. Make all code PEP-8 compliant.
 1. Try and maintain call functionality with the original calls, where possible.
 
+It is licensed under the [BSD-3-Clause license](https://opensource.org/licenses/BSD-3-Clause).
+
 ## What is it?
 A general purpose package to make it easy to automate functions in the game [The Kingdom of Loathing](https://www.kingdomofloathing.com/). 
 
