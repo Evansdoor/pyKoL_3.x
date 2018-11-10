@@ -47,12 +47,15 @@ To run the test suite:
 ## Major fixes
 1. Code update for the move of KoL to HTTPS now working.
 2. Regexes update for the move to [AWS](https://www.aws.com/) now working for tested calls.
+3. Download of KoL Mafia data files in process:
+  Complete: Items, Equipment.
+  WIP: Adventures.
 
 ## Current Issues
 1. No upload of files yet.
 1. Unit tests run. Yippee!
 1. data/Patterns.py still being updated to use ' instead of " and loosen up the regexes. As they currently stand the older regexes break on any CSS change. This will still be an issue after my first code commit.
-1. Update data/Adventures.py to be in sync with Mafia.
+1. Update data/Adventures.py to be in sync with Mafia - originally manual, now being automated.
 1. Created data/Character.py for character and account based variables, such as class, levels and main stats.
 1. Updating data/Quests.py for many, many missing quests.
 1. Still need to update data/[Skills|Items].py 
